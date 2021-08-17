@@ -21,8 +21,8 @@ void	test_ft_strcmp(int number, char *s1, char *s2)
 	obtained = ft_strcmp(s1, s2);
 
 	printf("\033[0;33m");
-	printf("String 1: %s\n", s1);
-	printf("String 2: %s\n", s2);
+	printf("s1: %s\n", s1);
+	printf("s2: %s\n", s2);
 	printf("\033[0m");
 	printf("Expected return: %d\n", expected);
 	printf("Obtained return: %d\n", obtained);
