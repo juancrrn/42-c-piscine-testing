@@ -51,11 +51,11 @@ int main()
 
 	test_ft_iterative_power(5, 2, 0, 1);
 
-	test_ft_iterative_power(5, 2, 2, 4);
+	test_ft_iterative_power(6, 2, 2, 4);
 
-	test_ft_iterative_power(5, 5, 2, 25);
+	test_ft_iterative_power(7, 5, 2, 25);
 
-	test_ft_iterative_power(5, 5, 5, 3125);
+	test_ft_iterative_power(8, 5, 5, 3125);
 
-	test_ft_iterative_power(5, 2, 32, 0);
+	test_ft_iterative_power(9, 2, 32, 0);
 }

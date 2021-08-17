@@ -40,21 +40,21 @@ int main()
 {
 	heading("C Piscine", "C 05", "04 - ft_fibonacci");
 
-	test_ft_fibonacci(2, 0, 0);
+	test_ft_fibonacci(1, 0, 0);
 
 	test_ft_fibonacci(2, 1, 1);
 
-	test_ft_fibonacci(2, 2, 1);
+	test_ft_fibonacci(3, 2, 1);
 
-	test_ft_fibonacci(2, 3, 2);
+	test_ft_fibonacci(4, 3, 2);
 
-	test_ft_fibonacci(2, 4, 3);
+	test_ft_fibonacci(5, 4, 3);
 
-	test_ft_fibonacci(2, 5, 5);
+	test_ft_fibonacci(6, 5, 5);
 
-	test_ft_fibonacci(2, 8, 21);
+	test_ft_fibonacci(7, 8, 21);
 
-	test_ft_fibonacci(2, 40, 102334155);
+	test_ft_fibonacci(8, 40, 102334155);
 
-	test_ft_fibonacci(2, 47, -1323752223);
+	test_ft_fibonacci(9, 47, -1323752223);
 }

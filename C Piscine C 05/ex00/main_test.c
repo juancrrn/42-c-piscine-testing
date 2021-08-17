@@ -50,7 +50,7 @@ int main()
 
 	test_ft_iterative_factorial(5, 3, 6);
 
-	test_ft_iterative_factorial(5, 10, 3628800);
+	test_ft_iterative_factorial(6, 10, 3628800);
 
-	test_ft_iterative_factorial(5, 17, -288522240);
+	test_ft_iterative_factorial(7, 17, -288522240);
 }

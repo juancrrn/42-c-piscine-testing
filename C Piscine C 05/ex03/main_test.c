@@ -41,19 +41,19 @@ int main()
 {
 	heading("C Piscine", "C 05", "03 - ft_recursive_power");
 
-	test_ft_recursive_power(2, 0, 0, 1);
+	test_ft_recursive_power(1, 0, 0, 1);
 
-	test_ft_recursive_power(3, 1, 0, 1);
+	test_ft_recursive_power(2, 1, 0, 1);
 
-	test_ft_recursive_power(4, 1, 1, 1);
+	test_ft_recursive_power(3, 1, 1, 1);
 
-	test_ft_recursive_power(5, 2, 0, 1);
+	test_ft_recursive_power(4, 2, 0, 1);
 
 	test_ft_recursive_power(5, 2, 2, 4);
 
-	test_ft_recursive_power(5, 5, 2, 25);
+	test_ft_recursive_power(6, 5, 2, 25);
 
-	test_ft_recursive_power(5, 5, 5, 3125);
+	test_ft_recursive_power(7, 5, 5, 3125);
 
-	test_ft_recursive_power(5, 2, 32, 0);
+	test_ft_recursive_power(8, 2, 32, 0);
 }
