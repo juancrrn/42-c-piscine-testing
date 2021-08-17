@@ -52,4 +52,6 @@ int main()
 	test_ft_strstr(2, "a b a b a c c c a", "c c a");
 
 	test_ft_strstr(3, "a b a b a c c c a", "c z a");
+
+	test_ft_strstr(4, "a b a b a c c c a", "");
 }
