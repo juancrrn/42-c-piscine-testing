@@ -51,4 +51,16 @@ int main()
 	test_ft_sqrt(5, 4, 2);
 
 	test_ft_sqrt(6, 99980001, 9999);
+
+	test_ft_sqrt(7, -10, 0);
+	test_ft_sqrt(8, -1, 0);
+	test_ft_sqrt(9, 0, 0);
+	test_ft_sqrt(10, 1, 1);
+	test_ft_sqrt(11, 2, 0);
+	test_ft_sqrt(12, 3, 0);
+	test_ft_sqrt(13, 4, 2);
+	test_ft_sqrt(14, 9, 3);
+	test_ft_sqrt(15, 16, 4);
+
+	test_ft_sqrt(6, 2147483647, 0);
 }

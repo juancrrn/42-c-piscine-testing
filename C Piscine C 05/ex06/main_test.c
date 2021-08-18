@@ -67,4 +67,8 @@ int main()
 	test_ft_is_prime(13, 7000, 0);
 
 	test_ft_is_prime(14, 21577, 1);
+
+	test_ft_is_prime(15, -3595, 0);
+
+	test_ft_is_prime(16, -12, 0);
 }
